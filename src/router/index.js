@@ -3,6 +3,7 @@ import index from "@/views/index.vue" ;
 import ancestors from "@/views/ancestors.vue" ;
 import refs from "@/views/refs.vue" ;
 import apiTool from "@/views/apiTool.vue" ;
+import arApis from "@/views/arApis.vue" ;
 
 const routes = [
     {
@@ -28,6 +29,11 @@ const routes = [
         path: "/apiTool",
         name: "apiTool",
         component: apiTool
+    },
+    {
+        path: "/arApis",
+        name: "arApis",
+        component: arApis
     }
 ]
 
